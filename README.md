@@ -1,5 +1,6 @@
 # Contellect.ContactApp-Esraa Gamal
  Contellect task
+this data in db after update-datebase in => project Contellect.ContactApp.DB
 
 
 USE [ContactApp]
