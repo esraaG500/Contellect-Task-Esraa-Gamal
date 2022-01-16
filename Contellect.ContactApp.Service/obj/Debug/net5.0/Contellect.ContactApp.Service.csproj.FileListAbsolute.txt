@@ -1,0 +1,15 @@
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\bin\Debug\net5.0\Contellect.ContactApp.Service.deps.json
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\bin\Debug\net5.0\Contellect.ContactApp.Service.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\bin\Debug\net5.0\ref\Contellect.ContactApp.Service.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\bin\Debug\net5.0\Contellect.ContactApp.Service.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.csproj.AssemblyReference.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.AssemblyInfoInputs.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.AssemblyInfo.cs
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.csproj.CoreCompileInputs.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\ref\Contellect.ContactApp.Service.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\bin\Debug\net5.0\Contellect.ContactApp.Core.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\bin\Debug\net5.0\Contellect.ContactApp.Core.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Service\obj\Debug\net5.0\Contellect.ContactApp.Service.csproj.CopyComplete

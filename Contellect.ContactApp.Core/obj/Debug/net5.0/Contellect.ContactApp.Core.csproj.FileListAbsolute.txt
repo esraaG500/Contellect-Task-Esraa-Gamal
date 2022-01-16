@@ -1,0 +1,12 @@
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\bin\Debug\net5.0\Contellect.ContactApp.Core.deps.json
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\bin\Debug\net5.0\Contellect.ContactApp.Core.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\bin\Debug\net5.0\ref\Contellect.ContactApp.Core.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\bin\Debug\net5.0\Contellect.ContactApp.Core.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.AssemblyInfoInputs.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.AssemblyInfo.cs
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.csproj.CoreCompileInputs.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\ref\Contellect.ContactApp.Core.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Core\obj\Debug\net5.0\Contellect.ContactApp.Core.csproj.AssemblyReference.cache

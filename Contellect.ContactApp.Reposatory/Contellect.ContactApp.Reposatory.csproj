@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contellect.ContactApp.Core\Contellect.ContactApp.Core.csproj" />
+    <ProjectReference Include="..\Contellect.ContactApp.DB\Contellect.ContactApp.DB.csproj" />
+  </ItemGroup>
+
+</Project>

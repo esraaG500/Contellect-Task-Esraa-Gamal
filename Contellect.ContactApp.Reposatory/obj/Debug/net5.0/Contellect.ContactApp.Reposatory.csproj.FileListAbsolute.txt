@@ -1,0 +1,17 @@
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.Reposatory.deps.json
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.Reposatory.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\ref\Contellect.ContactApp.Reposatory.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.Reposatory.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.csproj.AssemblyReference.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.GeneratedMSBuildEditorConfig.editorconfig
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.AssemblyInfoInputs.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.AssemblyInfo.cs
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.csproj.CoreCompileInputs.cache
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\ref\Contellect.ContactApp.Reposatory.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.Core.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.DB.dll
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.Core.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\bin\Debug\net5.0\Contellect.ContactApp.DB.pdb
+F:\projects\Entity FrameWork Core\Contellect.ContactApp\Contellect.ContactApp.Reposatory\obj\Debug\net5.0\Contellect.ContactApp.Reposatory.csproj.CopyComplete

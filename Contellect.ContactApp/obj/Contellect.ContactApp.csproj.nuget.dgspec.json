@@ -1,0 +1,367 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp\\Contellect.ContactApp.csproj": {}
+  },
+  "projects": {
+    "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj",
+        "projectName": "Contellect.ContactApp.Core",
+        "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Esraa\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Esraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj",
+        "projectName": "Contellect.ContactApp.DB",
+        "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj",
+        "packagesPath": "C:\\Users\\Esraa\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Esraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Reposatory\\Contellect.ContactApp.Reposatory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Reposatory\\Contellect.ContactApp.Reposatory.csproj",
+        "projectName": "Contellect.ContactApp.Reposatory",
+        "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Reposatory\\Contellect.ContactApp.Reposatory.csproj",
+        "packagesPath": "C:\\Users\\Esraa\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Reposatory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Esraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj"
+              },
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Service\\Contellect.ContactApp.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Service\\Contellect.ContactApp.Service.csproj",
+        "projectName": "Contellect.ContactApp.Service",
+        "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Service\\Contellect.ContactApp.Service.csproj",
+        "packagesPath": "C:\\Users\\Esraa\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Esraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp\\Contellect.ContactApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp\\Contellect.ContactApp.csproj",
+        "projectName": "Contellect.ContactApp",
+        "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp\\Contellect.ContactApp.csproj",
+        "packagesPath": "C:\\Users\\Esraa\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Esraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Core\\Contellect.ContactApp.Core.csproj"
+              },
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.DB\\Contellect.ContactApp.DB.csproj"
+              },
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Reposatory\\Contellect.ContactApp.Reposatory.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Reposatory\\Contellect.ContactApp.Reposatory.csproj"
+              },
+              "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Service\\Contellect.ContactApp.Service.csproj": {
+                "projectPath": "F:\\projects\\Entity FrameWork Core\\Contellect.ContactApp\\Contellect.ContactApp.Service\\Contellect.ContactApp.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

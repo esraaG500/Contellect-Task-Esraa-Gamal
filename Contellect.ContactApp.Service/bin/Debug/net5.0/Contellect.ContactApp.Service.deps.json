@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Contellect.ContactApp.Service/1.0.0": {
+        "dependencies": {
+          "Contellect.ContactApp.Core": "1.0.0"
+        },
+        "runtime": {
+          "Contellect.ContactApp.Service.dll": {}
+        }
+      },
+      "Contellect.ContactApp.Core/1.0.0": {
+        "runtime": {
+          "Contellect.ContactApp.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contellect.ContactApp.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contellect.ContactApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

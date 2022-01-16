@@ -1,0 +1,145 @@
+﻿@model Contellect.ContactApp.Core.Entities.Contacts
+@using Contellect.ContactApp.Reposatory.Paging
+@{
+    var dataResult = ViewBag.results as PaginatedList<Contellect.ContactApp.Core.Entities.Contacts>;
+    ViewData["Title"] = "Contacts";
+}
+
+<h1>Contacts</h1>
+<div>
+    @* filtering *@
+    <form asp-controller="Contact" asp-action="Index">
+        <div class="handelRow">
+            <h6 class="col-lg-4">Contact Name:</h6>
+            
+            <input class="form-control col-lg-4" type="text" name="SearchString" />
+            <input type="submit" value="Filter" class="btn btn-primary col-lg-2" />
+            <a class="text-danger col-lg-1" href="@Url.Action("Index", "Contact", new { pageStatus = 0, pageNumber = dataResult.PageIndex })">Cancel</a>
+        </div>
+    </form>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactNotes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <form id="ContactForm" method="post" enctype="multipart/form-data" asp-action="SaveContact">
+
+        <tr>
+            <td>
+                <input type="hidden" asp-for="ContactID" />
+                <input asp-for="ContactName" class="form-control" required />
+                <span asp-validation-for="ContactName" class="text-danger"></span>
+            </td>
+            <td>
+                <input asp-for="ContactPhone" class="form-control" required />
+                <span asp-validation-for="ContactPhone" class="text-danger"></span>
+            </td>
+            <td>
+                <input asp-for="ContactAddress" class="form-control" required />
+                <span asp-validation-for="ContactAddress" class="text-danger"></span>
+            </td>
+            <td>
+                <textarea asp-for="ContactNotes" class="form-control"> </textarea>
+                <span asp-validation-for="ContactNotes" class="text-danger"></span>
+            </td>
+            <td>
+                <input type="submit" value="Save" class="btn btn-success" />
+                <a class="text-danger" href="@Url.Action("Index", "Contact", new { pageStatus = 0, pageNumber = dataResult.PageIndex })">Cancel</a>
+
+            </td>
+        </tr>
+        </form>
+        @foreach (var item in dataResult)
+        {
+            <tr id="Row@(item.ContactID)" class="@(item.UserUpdatedID > 0 ? "disabledRow" : "")">
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactNotes)
+                </td>
+                <td class="handelRow">
+                    <button type="button" class="btn btn-warning" onclick="sendButton(this)" row-id="@item.ContactID" @(item.UserUpdatedID > 0 ? "disabled" : "")>Edit</button>
+                    <form method="post" asp-action="DeleteContact" asp-route-id="@item.ContactID"
+                          onclick="return confirm('Are you sure you want to delete this?')">
+                        <button type="submit" class="btn btn-danger ml-2" @(item.UserUpdatedID > 0 ? "disabled" : "")>Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        @*  }*@
+    </tbody>
+</table>
+
+<style>
+    .handelRow {
+        display: inline-flex;
+    }
+
+    .disabledRow {
+        background-color: antiquewhite;
+    }
+</style>
+
+@{
+    //paging
+    if (dataResult != null)
+    {
+        var PrevDisabled = !dataResult.PreviousPage ? "disabled" : "";
+        var NextDisabled = !dataResult.NextPage ? "disabled" : "";
+
+        <a asp-action="Index"
+           asp-route-pageNumber="@(dataResult.PageIndex - 1)"
+           class="btn btn-primary @PrevDisabled">
+            Previous
+        </a>
+        @for (int i = 1; i <= dataResult.TotalPages; i++)
+        {
+            <a asp-action="Index"
+               asp-route-pageNumber="@(i)"
+               class="btn @(i == dataResult.PageIndex ? "btn-success" : "btn-primary")">
+                @i
+            </a>
+        }
+        <a asp-action="Index"
+           asp-route-pageNumber="@(dataResult.PageIndex + 1)"
+           class="btn btn-primary @NextDisabled">
+            Next
+        </a>
+    }
+}
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/data.js"></script>
+
+@if (TempData["msg"] != null)
+{
+    <script>
+    alert('@TempData["msg"]')
+
+    var rowId = '@TempData["rowId"]';
+    if (rowId > 0)
+        sendChange(rowId);
+    </script>
+}
