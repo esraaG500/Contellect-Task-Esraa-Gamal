@@ -18,6 +18,7 @@ namespace Contellect.ContactApp.Core.Entities
 
         [Required]
         [StringLength(11, ErrorMessage = "The Contact Phone Number cannot exceed 11 Number. ")]
+        [RegularExpression("([1-9][0-9]*)", ErrorMessage = "Please enter valid integer Number")]
         public string ContactPhone { get; set; }
 
         [Required]
